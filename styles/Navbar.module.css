@@ -1,0 +1,38 @@
+/* MINI NAVIGATION BAR */
+.min{
+    text-align: center;
+    background-color: #ffC233;
+    padding: 1px;
+}
+/* MAIN NAVIGATION BAR */
+.main{
+    box-shadow: 5px 1px 1px;
+    position: sticky;
+    top: 0;
+}
+.navbar {
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 20px;
+}
+.navbar a {
+  margin-left: 12px;
+}
+.navbar .logo {
+  margin-right: auto;
+}
+.main a{
+    color: #000;
+    text-decoration: none;
+}
+.main a:last-child{
+    background-color: #ffC233;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+.link{
+    padding: 20px;
+}
